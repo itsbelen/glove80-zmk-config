@@ -157,23 +157,23 @@
 
         nav {
             bindings = <
-&trans     &trans        &trans          &trans          &trans                                                                                                                                                 &trans          &trans          &trans           &trans           &trans
-&trans     &trans        &trans          &trans          &trans           &trans                                                                                             &trans                             &trans          &trans          &trans           &trans           &trans
-&trans     &trans        &trans          &kp UP_ARROW    &trans           &rgb_ug RGB_COLOR_HSB(99,100,50)                                                                   &rgb_ug RGB_COLOR_HSB(106,100,50)  &trans          &kp UP_ARROW    &trans           &kp PRINTSCREEN  &kp F11
-&trans     &kp LEFT_WIN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                                                                                             &trans                             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LGUI         &trans
-&kp LC(Z)  &kp LC(A)     &kp LC(X)       &kp LC(C)       &kp LC(V)        &boldItalics                      &trans          &trans  &trans  &trans  &trans  &trans           &kp RC(A)                          &kp RC(X)       &kp RC(C)       &kp RC(V)        &boldItalics     &kp RC(Z)
-&trans     &kp LG(A)     &kp LG(X)       &kp LG(C)       &kp LG(V)                                          &kp LEFT_SHIFT  &trans  &to 0   &to 0   &trans  &kp RIGHT_SHIFT                                     &kp RG(A)       &kp RG(X)       &kp RG(C)        &kp RG(V)        &trans
+&trans     &trans        &trans          &trans          &trans                                                                                                                                                  &trans          &trans          &trans           &trans           &trans
+&trans     &trans        &trans          &trans          &trans           &trans                                                                                              &trans                             &trans          &trans          &trans           &trans           &trans
+&trans     &trans        &trans          &kp UP_ARROW    &trans           &rgb_ug RGB_COLOR_HSB(234,100,21)                                                                   &rgb_ug RGB_COLOR_HSB(243,100,22)  &trans          &kp UP_ARROW    &trans           &kp PRINTSCREEN  &kp F11
+&trans     &kp LEFT_WIN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                                                                                              &trans                             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LGUI         &trans
+&kp LC(Z)  &kp LC(A)     &kp LC(X)       &kp LC(C)       &kp LC(V)        &boldItalics                       &trans          &trans  &trans  &trans  &trans  &trans           &kp RC(A)                          &kp RC(X)       &kp RC(C)       &kp RC(V)        &boldItalics     &kp RC(Z)
+&trans     &kp LG(A)     &kp LG(X)       &kp LG(C)       &kp LG(V)                                           &kp LEFT_SHIFT  &trans  &to 0   &to 0   &trans  &kp RIGHT_SHIFT                                     &kp RG(A)       &kp RG(X)       &kp RG(C)        &kp RG(V)        &trans
             >;
         };
 
         numpad {
             bindings = <
-&trans  &trans     &trans     &trans  &trans                                                                                                                                           &trans   &trans  &trans     &trans      &trans
-&trans  &trans     &trans     &trans  &trans   &trans                                                                                               &trans                             &trans   &trans  &trans     &trans      &trans
-&trans  &kp BSPC   &kp N7     &kp N8  &kp N9   &rgb_ug RGB_COLOR_HSB(300,100,50)                                                                    &rgb_ug RGB_COLOR_HSB(303,100,50)  &kp N7   &kp N8  &kp N9     &kp BSPC    &trans
-&trans  &kp DEL    &kp N4     &kp N5  &kp N6   &kp LS(N8)                                                                                           &kp RS(N8)                         &kp N4   &kp N5  &kp N6     &kp DELETE  &trans
-&trans  &trans     &kp N1     &kp N2  &kp N3   &kp EQUAL                          &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp RC(A)  &kp RC(C)  &kp RC(V)  &kp EQUAL                          &kp N1   &kp N2  &kp N3     &trans      &trans
-&trans  &kp ENTER  &kp MINUS  &kp N0  &kp DOT                                     &kp RSHFT  &trans     &to 0      &to 0      &trans     &kp RSHFT                                     &kp DOT  &kp N0  &kp MINUS  &trans      &kp ENTER
+&trans  &trans     &trans     &trans  &trans                                                                                                                                         &trans   &trans  &trans     &trans      &trans
+&trans  &trans     &trans     &trans  &trans   &trans                                                                                              &trans                            &trans   &trans  &trans     &trans      &trans
+&trans  &kp BSPC   &kp N7     &kp N8  &kp N9   &rgb_ug RGB_COLOR_HSB(68,100,25)                                                                    &rgb_ug RGB_COLOR_HSB(57,100,23)  &kp N7   &kp N8  &kp N9     &kp BSPC    &trans
+&trans  &kp DEL    &kp N4     &kp N5  &kp N6   &kp LS(N8)                                                                                          &kp RS(N8)                        &kp N4   &kp N5  &kp N6     &kp DELETE  &trans
+&trans  &trans     &kp N1     &kp N2  &kp N3   &kp EQUAL                         &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp RC(A)  &kp RC(C)  &kp RC(V)  &kp EQUAL                         &kp N1   &kp N2  &kp N3     &trans      &trans
+&trans  &kp ENTER  &kp MINUS  &kp N0  &kp DOT                                    &kp RSHFT  &trans     &to 0      &to 0      &trans     &kp RSHFT                                    &kp DOT  &kp N0  &kp MINUS  &trans      &kp ENTER
             >;
         };
     };
