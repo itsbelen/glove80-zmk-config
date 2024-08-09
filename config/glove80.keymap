@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -189,12 +190,12 @@
 
         Maya {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                              &trans               &kp UP_ARROW               &trans           &to 0                &kp F8
-&trans  &trans  &trans  &trans  &trans  &trans                                                           &trans     &kp LEFT_ARROW       &kp DOWN_ARROW             &kp RIGHT_ARROW  &trans               &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans                                                           &kp BSPC   &mt N1 RA(NUMBER_1)  &mt RA(NUMBER_2) NUMBER_2  &kp N3           &mt N4 RA(NUMBER_4)  &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans                                                           &kp RA(W)  &kp W                &kp E                      &kp R            &kp MINUS            &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(V)  &kp LC(Z)  &kp LC(Y)  &trans     &kp S                &kp X                      &kp C            &kp LBKT             &kp RBKT
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &kp SPACE  &kp LSHFT  &kp RALT              &kp RSHFT            &kp RC(Z)                  &kp RC(Y)        &kp RCTRL            &kp RIGHT_CONTROL
+&trans  &trans  &trans  &trans  &trans                                                                                            &trans               &kp UP_ARROW               &trans           &to 0                &kp F8
+&trans  &trans  &trans  &trans  &trans  &trans                                                                         &trans     &kp LEFT_ARROW       &kp DOWN_ARROW             &kp RIGHT_ARROW  &kp DELETE           &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans                                                                         &mkp RCLK  &mt N1 RA(NUMBER_1)  &mt RA(NUMBER_2) NUMBER_2  &kp N3           &mt N4 RA(NUMBER_4)  &kp BSLH
+&trans  &trans  &trans  &trans  &trans  &trans                                                                         &mkp MCLK  &mt RA(W) W          &kp E                      &kp R            &kp MINUS            &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(V)  &kp LC(RA(V))  &kp RA(RIGHT_SHIFT)  &mkp LCLK  &kp S                &kp X                      &kp C            &kp LBKT             &kp RBKT
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &kp SPACE  &kp LSHFT      &kp RALT                        &kp RSHFT            &kp RC(Z)                  &kp RC(Y)        &kp RCTRL            &kp RIGHT_CONTROL
             >;
         };
 
