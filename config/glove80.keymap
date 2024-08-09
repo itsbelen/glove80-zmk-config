@@ -116,7 +116,7 @@
         };
 
         maya {
-            bindings = <&to 7>;
+            bindings = <&to 6>;
             key-positions = <30 31 29>;
         };
 
