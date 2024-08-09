@@ -109,6 +109,26 @@
             bindings = <&kp DELETE>;
             key-positions = <76 77>;
         };
+
+        base {
+            bindings = <&to 0>;
+            key-positions = <43 42>;
+        };
+
+        maya {
+            bindings = <&to 6>;
+            key-positions = <30 31>;
+        };
+
+        nav {
+            bindings = <&to 4>;
+            key-positions = <61 60>;
+        };
+
+        numpad {
+            bindings = <&to 5>;
+            key-positions = <76 77>;
+        };
     };
 
     keymap {
