@@ -193,7 +193,7 @@
 
         nav {
             bindings = <
-&trans     &trans        &trans          &trans          &trans                                                                                                                                                  &trans          &trans          &trans           &trans           &trans
+&trans     &trans        &trans          &trans          &none                                                                                                                                                   &trans          &trans          &trans           &trans           &trans
 &trans     &trans        &trans          &trans          &trans           &rgb_ug RGB_COLOR_HSB(230,100,23)                                                                   &trans                             &trans          &trans          &trans           &trans           &trans
 &trans     &trans        &trans          &kp UP_ARROW    &trans           &trans                                                                                              &rgb_ug RGB_COLOR_HSB(243,100,22)  &trans          &kp UP_ARROW    &trans           &kp PRINTSCREEN  &kp F11
 &trans     &kp LEFT_WIN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                                                                                              &trans                             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LGUI         &trans
@@ -204,7 +204,7 @@
 
         numpad {
             bindings = <
-&trans  &trans    &trans     &trans  &trans                                                                                                                   &trans          &kp UP_ARROW  &trans           &trans      &trans
+&trans  &trans    &trans     &trans  &none                                                                                                                    &trans          &kp UP_ARROW  &trans           &trans      &trans
 &trans  &trans    &trans     &trans  &trans   &rgb_ug RGB_COLOR_HSB(61,100,27)                                                                    &trans      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans      &trans
 &trans  &kp BSPC  &kp N7     &kp N8  &kp N9   &trans                                                                                              &trans      &kp N7          &kp N8        &kp N9           &kp BSPC    &trans
 &trans  &kp DEL   &kp N4     &kp N5  &kp N6   &kp LS(N8)                                                                                          &kp RS(N8)  &kp N4          &kp N5        &kp N6           &kp DELETE  &trans
@@ -226,7 +226,7 @@
 
         maya_Lhand {
             bindings = <
-&kp F8         &trans               &trans               &kp UP_ARROW    &trans                                                                                                                                     &trans          &trans          &trans           &trans   &trans
+&kp F8         &kp A                &kp F                &kp UP_ARROW    &none                                                                                                                                      &trans          &trans          &trans           &trans   &trans
 &kp F11        &kp PRINTSCREEN      &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW      &rgb_ug RGB_COLOR_HSB(185,100,29)                                                                             &trans  &trans          &trans          &trans           &kp DEL  &trans
 &kp BACKSLASH  &mt N1 LA(NUMBER_1)  &mt LA(N2) NUMBER_2  &kp N3          &mt LA(N4) NUMBER_4  &mkp MB2                                                                                                      &kp U   &kp J           &kp K           &trans           &trans   &trans
 &kp MINUS      &kp EQUAL            &mt LA(W) W          &kp E           &kp R                &mkp MB3                                                                                                      &trans  &trans          &kp UP_ARROW    &kp RA(Q)        &trans   &trans
