@@ -184,18 +184,18 @@
 &trans  &kp BSPC  &kp N7     &kp N8  &kp N9   &rgb_ug RGB_COLOR_HSB(68,100,25)                                                                    &rgb_ug RGB_COLOR_HSB(57,100,23)  &kp N7          &kp N8        &kp N9           &kp BSPC    &trans
 &trans  &kp DEL   &kp N4     &kp N5  &kp N6   &kp LS(N8)                                                                                          &kp RS(N8)                        &kp N4          &kp N5        &kp N6           &kp DELETE  &trans
 &trans  &trans    &kp N1     &kp N2  &kp N3   &kp EQUAL                         &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp RC(A)  &kp RC(C)  &kp RC(V)  &kp EQUAL                         &kp N1          &kp N2        &kp N3           &trans      &trans
-&trans  &to 0     &kp MINUS  &kp N0  &kp DOT                                    &kp RSHFT  &kp ENTER  &to 0      &to 0      &trans     &kp RSHFT                                    &kp DOT         &kp N0        &kp MINUS        &trans      &kp ENTER
+&trans  &to 0     &kp MINUS  &kp N0  &kp DOT                                    &kp RSHFT  &kp ENTER  &to 0      &to 0      &trans     &kp RSHFT                                    &kp DOT         &kp N0        &kp MINUS        &to 6       &kp ENTER
             >;
         };
 
         Maya {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                                                      &trans               &kp UP_ARROW               &trans           &to 0                &kp F8
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                                    &trans    &kp LEFT_ARROW       &kp DOWN_ARROW             &kp RIGHT_ARROW  &kp DELETE           &kp F11
-&trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(180,100,26)                                                                         &mkp MB2  &mt RA(N1) NUMBER_1  &mt RA(NUMBER_2) NUMBER_2  &kp N3           &mt N4 RA(NUMBER_4)  &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                                    &mkp MB3  &mt RA(W) W          &kp E                      &kp R            &kp MINUS            &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &kp RC(V)  &kp LC(RA(V))  &kp RA(RIGHT_SHIFT)  &mkp MB1  &kp S                &kp X                      &kp C            &kp LBKT             &kp RBKT
-&trans  &trans  &trans  &trans  &trans                                     &trans  &trans  &trans  &kp SPACE  &kp LSHFT      &kp RALT                       &kp RSHFT            &kp RC(Z)                  &kp RC(Y)        &kp RCTRL            &kp RIGHT_CONTROL
+&trans  &trans  &trans       &trans  &none                                                                                                                                             &trans               &kp UP_ARROW               &trans           &to 0                &kp F8
+&trans  &trans  &trans       &trans  &trans  &trans                                                                                                                          &to 5     &kp LEFT_ARROW       &kp DOWN_ARROW             &kp RIGHT_ARROW  &kp DELETE           &kp F11
+&trans  &trans  &trans       &trans  &trans  &rgb_ug RGB_COLOR_HSB(180,100,26)                                                                                               &mkp MB2  &mt RA(N1) NUMBER_1  &mt RA(NUMBER_2) NUMBER_2  &kp N3           &mt N4 RA(NUMBER_4)  &kp BSLH
+&trans  &trans  &mt Q RA(Q)  &trans  &trans  &kp DELETE                                                                                                                      &mkp MB3  &mt RA(W) W          &kp E                      &kp R            &kp MINUS            &kp EQUAL
+&trans  &trans  &kp U        &kp J   &kp K   &trans                             &mt Q RA(Q)  &trans         &to 5             &kp SPACE  &kp LC(RA(V))  &kp RA(RIGHT_SHIFT)  &mkp MB1  &kp S                &kp X                      &kp C            &kp LBKT             &kp RBKT
+&trans  &trans  &trans       &trans  &trans                                     &kp LC(S)    &kp LC(LS(S))  &kp LEFT_CONTROL  &kp LA(V)  &kp LSHFT      &kp RALT                       &kp RSHFT            &kp RC(Z)                  &kp RC(Y)        &kp LEFT_CONTROL     &kp RIGHT_CONTROL
             >;
         };
 
