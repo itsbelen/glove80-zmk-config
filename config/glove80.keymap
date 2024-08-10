@@ -226,12 +226,12 @@
 
         maya_Lhand {
             bindings = <
-&kp F8         &kp A                &kp F                &kp UP_ARROW    &none                                                                                                                                      &trans          &trans          &trans           &trans   &trans
-&kp F11        &kp PRINTSCREEN      &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW      &rgb_ug RGB_COLOR_HSB(185,100,29)                                                                             &trans  &trans          &trans          &trans           &kp DEL  &trans
-&kp BACKSLASH  &mt N1 LA(NUMBER_1)  &mt LA(N2) NUMBER_2  &kp N3          &mt LA(N4) NUMBER_4  &mkp MB2                                                                                                      &kp U   &kp J           &kp K           &trans           &trans   &trans
-&kp MINUS      &kp EQUAL            &mt LA(W) W          &kp E           &kp R                &mkp MB3                                                                                                      &trans  &trans          &kp UP_ARROW    &kp RA(Q)        &trans   &trans
-&kp LBKT       &kp RBKT             &kp LC(X)            &kp LC(C)       &kp S                &mkp MB1                           &kp RS(RIGHT_ALT)  &trans     &kp SPACE  &trans  &kp LC(S)  &kp RS(LC(S))  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans         &kp LCTRL            &kp LC(Z)            &kp LC(Y)       &kp RSHFT                                               &kp RALT           &kp RSHFT  &kp RA(V)  &trans  &trans     &trans                 &trans          &trans          &trans           &trans   &trans
+&kp F8         &kp A            &kp F                      &kp UP_ARROW               &none                                                                                                                         &trans          &trans          &trans           &trans   &trans
+&kp F11        &kp PRINTSCREEN  &kp LEFT_ARROW             &kp DOWN_ARROW             &kp RIGHT_ARROW  &rgb_ug RGB_COLOR_HSB(185,100,29)                                                                    &trans  &trans          &trans          &trans           &kp DEL  &trans
+&kp BACKSLASH  &trans           &mt LA(NUMBER_1) NUMBER_1  &mt LA(NUMBER_2) NUMBER_2  &kp NUMBER_3     &mt NUMBER_4 LA(NUMBER_4)                                                                            &kp U   &kp J           &kp K           &trans           &trans   &trans
+&kp MINUS      &kp EQUAL        &kp W                      &kp E                      &kp R            &kp RA(W)                                                                                            &trans  &trans          &kp UP_ARROW    &kp RA(Q)        &trans   &trans
+&kp LBKT       &kp RBKT         &kp LC(X)                  &kp LC(C)                  &kp S            &kp S                              &kp X     &kp C      &kp SPACE  &trans  &kp LC(S)  &kp RS(LC(S))  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans         &kp LCTRL        &kp LC(Z)                  &kp LC(Y)                  &kp RSHFT                                           &kp RALT  &kp RC(Z)  &kp LC(Y)  &trans  &trans     &trans                 &trans          &trans          &trans           &trans   &trans
             >;
         };
 
